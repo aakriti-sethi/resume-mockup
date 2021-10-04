@@ -1,0 +1,94 @@
+body{
+    background-color: lightgray;
+    padding: 0;
+    margin: 70px;
+}
+
+.header{
+    background-color: greenyellow;
+    color: white;
+    padding: 5px 20px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.head-left{
+    display: inline-block;
+}
+.head-left img{
+    border-radius: 50%;
+    border: 2px solid white;
+    float: left;
+    margin: 10px;
+}
+.head-left-content{
+    display: inline-block;
+    padding-left: 20px;
+}
+.head-left-content h2{
+    padding-top: 0;
+}
+.head-right{
+    display: inline-block;
+    float: right;
+    padding-top: 20px;
+}
+
+.head-right h3{
+    display: inline-block;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.content{
+    background-color: white;
+    padding: 50px 170px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.msg-box{
+    display: inline-block;
+    
+}
+
+table, td{
+    border: 1px solid gainsboro;
+    border-collapse: collapse;
+}
+td{
+    padding: 20px 80px;
+}
+
+.msg{
+    display: inline-block;
+    width: 50%;
+    border: 1px solid gainsboro;
+    position: absolute;
+    padding-bottom: 80px;
+}
+
+.msg-main{
+    padding: 30px;
+}
+
+.msg-upper{
+    padding: 30px;
+}
+.msg-upper p{
+    color: grey;
+}
+#mob{
+    display: inline-block;
+}
+#email{
+    display: inline-block;
+    padding-left: 100px;
+}
+
+strong{
+    color: black;
+}

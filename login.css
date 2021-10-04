@@ -1,0 +1,55 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main{
+    background-color: rgb(147, 190, 60);
+    height: 100vh;
+    color: white;
+}
+.main h2{
+    padding: 40px;
+    margin: 0;
+    text-align: center;
+    font-weight: lighter;
+    padding-top: 25vh;
+}
+
+.login{
+    border: none;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    /* margin: auto; */
+    /* width: 50vh; */
+    padding: 20px;
+    display: inline-block;
+    margin-left: 70vh;
+}
+
+.input{
+    width: 25rem;
+    height: 20px;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    padding: 10px;
+    border: 1px solid gainsboro;
+}
+
+.btn{
+    justify-content: space-between;
+}
+.btn a{
+    text-decoration: none;
+    color: black;
+}
+.login-btn{
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 12px 25px;
+    float: right;
+}
